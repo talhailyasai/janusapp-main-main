@@ -1,0 +1,141 @@
+.step2_main {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.step2_div {
+  width: 95%;
+}
+
+.basic_head {
+  font-weight: 600;
+  font-size: 2.3rem;
+  text-align: center;
+  color: #000000;
+}
+
+.basic_func_div {
+  /* width: 26rem;
+  height: 16rem; */
+  width: 25vw;
+  height: 35vh;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.navigation_img_main {
+  position: relative;
+  cursor: pointer;
+}
+
+.basic_func_main {
+  margin-top: 2.7rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.basic_div_head {
+  color: #000000;
+  font-weight: 600;
+  font-size: 1.6rem;
+  width: 26rem;
+  text-align: center;
+}
+
+.basic_img {
+  padding: 0 2.4rem;
+  position: relative;
+  z-index: 1;
+  height: 23vh;
+  width: 25vw;
+}
+
+.play_img {
+  position: absolute;
+  top: 29%;
+  left: 43%;
+  z-index: 2;
+  width: 20%;
+}
+
+.step_vedio_min {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #000000;
+  margin-bottom: 0 !important;
+  margin-top: 1.3rem;
+}
+
+.fasti_img {
+  /* width: 7rem;
+  height: 3rem; */
+  width: 18vh;
+  height: 9vh;
+  position: relative;
+  z-index: 1;
+}
+
+.fastiplay_img {
+  position: absolute;
+  top: 26%;
+  left: 38%;
+  z-index: 2;
+  width: 22%;
+}
+
+.features_div {
+  display: block !important;
+  padding: 1rem 0;
+}
+
+.fastighet_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.9rem;
+}
+
+.fastighet_head {
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 0 !important;
+}
+
+.underhall_main {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.step2_continue_btn {
+  margin-top: 4rem;
+  align-items: center;
+}
+
+/* .vedio_modal_main > .modal-dialog {
+  max-width: 664px !important;
+} */
+.video_inner {
+  height: 60vh;
+}
+.video_modal_main > .modal-dialog > .modal-content {
+  width: auto !important;
+}
+
+.close_btn_main {
+  float: right;
+  cursor: pointer;
+}
+.activiCol {
+  max-width: 16vw !important;
+}
+
+.step_arrow_back {
+  margin-left: 1%;
+  cursor: pointer;
+}

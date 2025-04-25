@@ -1,0 +1,300 @@
+.mainData_activites {
+  max-height: none !important;
+  height: 100% !important;
+}
+
+.property_image_main {
+  padding: 0px 0 1px 0;
+  margin: 0px 0 20px 0px;
+  width: 6.6vw;
+  display: flex;
+  align-items: center;
+  column-gap: 0.4rem;
+  border-bottom: 3px solid rgb(53, 199, 251);
+}
+
+.disactiveItem {
+  border-bottom: none !important;
+}
+
+.component_loader {
+  height: 62vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar_building {
+  margin-left: 0.5rem !important;
+}
+
+.btn-toolbar {
+  /* justify-content: end !important; */
+}
+
+.plan_checkbox > .form-check-input {
+  width: 1.6rem !important;
+  height: 1.6rem !important;
+}
+
+.maintenance_plan_checkBox_main {
+  display: flex;
+}
+
+.maintenance_plan_checkBox_text {
+  margin-left: 0.6rem;
+}
+
+.table_plan_checkbox_main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.maintenace_package_checkbox_main {
+  /* height: 76%; */
+  display: flex;
+  /* align-items: end; */
+  padding-left: 0.8rem;
+  bottom: 0;
+  position: absolute;
+  margin-bottom: 5rem;
+}
+
+.maintenance_package_items_multiple {
+  margin-bottom: 0 !important;
+}
+
+.maintenance_checkbox_main {
+  width: 100%;
+  background-color: #f0f0f0;
+}
+
+.contact_includes_main {
+  width: 100% !important;
+}
+
+.main_data_form_select {
+  background-color: rgb(217, 217, 217) !important;
+  color: black !important;
+  font-weight: bold;
+  border: 1px solid black;
+}
+
+.new_pkg_field {
+  height: 40px !important;
+  background-color: #d9d9d9 !important;
+  border: 1px solid #00a3cc !important;
+  border-radius: 5px;
+}
+
+.package_edit_icon {
+  font-size: 18px;
+  color: green;
+  cursor: pointer;
+}
+
+.batchediting_change_btn_main {
+  float: right;
+}
+
+.sidepanel_property_image {
+  min-width: 290px !important;
+  height: 290px;
+  object-fit: contain;
+}
+
+.sidepanel_property_image_main {
+  display: flex;
+}
+.inTabImage {
+  width: 14rem !important;
+  height: 12rem !important;
+}
+
+.property_cross_icon {
+  color: red;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+
+.activites_date {
+  margin-right: 0.3rem;
+}
+
+#inspection_navlink {
+  color: grey !important;
+}
+
+#batch_editing_dropdown_menu {
+  max-height: 9rem;
+  overflow-y: scroll;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.maindata_activities {
+  padding: 0px !important;
+  background-color: white !important;
+  max-height: 14rem !important;
+}
+
+.maindata_activites_edit {
+  font-size: 0.9rem !important;
+}
+
+.build_comp {
+  color: #0091b3;
+  text-decoration: underline;
+}
+
+.activity_main {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.property_buildings {
+  display: flex;
+  justify-content: space-around;
+  font-size: 15px;
+}
+
+.maindata_resposible {
+  margin-bottom: 0 !important;
+}
+
+.responsible {
+  margin-bottom: 1rem;
+}
+
+.resposible_user {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 1px;
+  color: black;
+}
+
+.main_data_date {
+  width: 5rem;
+}
+
+.main_activity {
+  width: 3rem;
+}
+
+.setting_property_main {
+  margin-left: 1.9rem;
+}
+
+.setting_property {
+  cursor: pointer;
+}
+
+.activites_mainData {
+  margin-bottom: 0 !important;
+  display: flex;
+  /* font-size: 13px !important; */
+}
+
+.maindata_property > .tooltip-inner {
+  max-width: fit-content !important;
+}
+
+.setting_Item:hover {
+  background-color: rgb(53, 199, 251);
+  width: 100%;
+  border-radius: 5px;
+}
+
+.building_components {
+  background-color: white !important;
+  padding-right: 0rem !important;
+}
+
+.property_buildings_table {
+  height: 12rem;
+  overflow-y: scroll;
+}
+
+.geosuggest {
+  position: relative; /* Ensure the parent has position relative */
+}
+.geosuggest__input {
+  width: 100%;
+  background-color: rgb(225, 225, 225);
+  color: black;
+  font-weight: bold;
+  height: fit-content;
+  border: 1px solid black;
+  padding: 0.55rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.5rem;
+  background-clip: padding-box;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  text-transform: uppercase;
+}
+
+.geosuggest__suggests-wrapper {
+  position: absolute; /* Position the suggestions absolutely */
+  width: 100%; /* Ensure it covers the input width */
+  z-index: 1000; /* Make sure it appears above other content */
+}
+
+/* Optional: You may want to add some styling for the suggestions */
+.geosuggest-suggestion {
+  padding: 10px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  color: black;
+}
+.geosuggest__suggests {
+  /* Add any additional styles like background, border, etc. */
+  background-color: rgb(225, 225, 225);
+  border: 1px solid black;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  list-style-type: none !important;
+  padding-left: 0 !important;
+}
+.geosuggest-suggestion:hover {
+  background-color: #f0f0f0; /* Change background on hover */
+}
+
+@media only screen and (max-width: 941px) {
+  .building_detail_rental {
+    margin-bottom: 3rem;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .building_detail_rental_field {
+    width: auto !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1320px) {
+  .building_detail_rental {
+    min-width: auto !important;
+  }
+}
+
+/* Property Comp Package */
+
+@media only screen and (max-width: 1425px) {
+  .comp_pkg_name {
+    font-size: 9px;
+  }
+  .prop_comp_pkg_side_check {
+    font-size: 8px;
+  }
+
+  #maintenance_sidepanel_table_key {
+    max-width: none !important;
+  }
+  #maintenance_sidepanel_table_value {
+    max-width: none !important;
+  }
+  .comp_package_table .prop_comp_pkg_side #maintenance_sidepanel_table_value {
+    font-size: 11px !important;
+  }
+}

@@ -1,0 +1,52 @@
+.data_setting_edit_icon {
+  cursor: pointer;
+  font-size: 20px;
+}
+.data_setting_delete_icon {
+  cursor: pointer;
+  font-size: 20px;
+  /* margin-left: 8px; */
+}
+
+.maintenanceItem_Table {
+  width: 94% !important;
+  overflow-x: scroll;
+}
+.maintenanceItem_Table > table > tbody > tr > td {
+  white-space: pre-wrap;
+}
+
+.text_attendenance_icon {
+  font-size: 25px;
+}
+
+.maintenance_item_article {
+  min-width: 8rem !important;
+}
+
+.maintenance_item_add_item {
+  float: right !important;
+  margin: 0.7rem 0rem !important;
+}
+
+.maintenance_item_add_item_btn {
+  width: 9rem !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  border-radius: 17px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-around !important;
+}
+
+.maintenance_item_activity {
+  min-width: 18rem !important;
+}
+
+/* Component Page Responsiveness */
+
+@media only screen and (max-width: 768px) {
+  .component_add {
+    margin: 2rem 0;
+  }
+}

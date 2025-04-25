@@ -1,0 +1,33 @@
+/* InputDropdown.css */
+.dropdown-icon {
+  background-image: url("https://cdn-icons-png.flaticon.com/512/60/60995.png");
+  background-repeat: no-repeat;
+  background-position: right 10px top 50%;
+  background-size: 12px 12px;
+  padding-right: 30px; /* Adjust padding to make room for the icon */
+}
+
+.switch_style {
+  display: flex;
+  align-items: center;
+  column-gap: 6px;
+}
+.component_image .file_uploader svg {
+  display: none;
+}
+.dropdown-icon option {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+}
+
+.dropdown-icon option:checked {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+}
+
+@-moz-document url-prefix() {
+  .dropdown-icon option {
+    font-family: "Nunito Sans", sans-serif !important;
+    font-weight: 400 !important;
+  }
+}

@@ -1,0 +1,43 @@
+.terms_use_heading {
+    background: #333f50;
+    padding: 1rem 0;
+    color: white;
+    font-size: 58px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .terms_use_main {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .terms_use_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+  }
+  
+  .terms_last_updated_heading {
+    font-size: 17px;
+    font-weight: 500;
+  }
+  .last_updated_date {
+    font-style: italic;
+  }
+  .terms_use_heading_main {
+    border: 1px solid darkgrey;
+    padding: 1rem 1.5rem;
+  }
+  
+  .terms_acept_heading {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .user_account_heading {
+    font-weight: 700;
+    margin-right: 0.3rem;
+  }
+  

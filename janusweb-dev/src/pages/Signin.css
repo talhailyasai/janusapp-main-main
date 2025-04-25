@@ -1,0 +1,93 @@
+.signin_lost_password {
+  font-weight: 700;
+}
+
+.signin_lost_password_main {
+  float: right;
+  font-weight: 700;
+}
+
+.signin_logo {
+  height: 23%;
+  width: 23%;
+}
+
+.signin_language_dropdown {
+  float: right;
+  margin: 1.5rem;
+  margin-top: 1rem;
+}
+
+.signup_login_btn {
+  float: right;
+}
+
+.back_signin {
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.back_signin_main {
+  display: flex;
+  justify-content: center;
+}
+
+.email_verification_cancel_btn {
+  background: white;
+  color: #4a5073;
+}
+
+.email_verification_modal_main > .modal-dialog > .modal-content {
+  background: #f5f8fb !important;
+}
+
+.signup_terms_condition {
+  cursor: pointer;
+}
+
+.res_users_main {
+  height: 20rem;
+  overflow-y: scroll;
+}
+
+.users_delete_icon {
+  color: red;
+  cursor: pointer;
+}
+
+/* Responsive Signin Page */
+@media only screen and (max-width: 500px) {
+  .signin_main {
+    width: 100%;
+  }
+}
+
+/* Responsive Signup Page */
+/* @media only screen and (max-width: 395px) {
+  .signup_terms_condition {
+    text-align: end;
+  }
+  .signup_agree_main {
+    flex-direction: column;
+    align-items: start !important;
+  }
+} */
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.signup-form .btn {
+  padding: 0.35rem 0.75rem !important;
+}
+.signup-form .form-control,
+.signup-form .btn {
+  padding: 0.25rem 0.75rem !important;
+}
+.signup-form .form-check-input {
+  width: 1.125em;
+  height: 1.125em;
+}

@@ -1,0 +1,36 @@
+.terms_condition_heading {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.modal_main > .modal-dialog {
+  max-width: 714px;
+  height: 99%;
+  overflow-y: scroll;
+}
+
+.Inledning_heading {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 0.5rem !important;
+}
+
+.Databehandling_heading {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.inleding_para {
+  font-size: 12px;
+}
+
+.integritet_heading {
+  margin-bottom: 1rem !important;
+}
+
+.modal_main > .modal-dialog > .modal-content > .modal-header {
+  border-bottom: none !important;
+}
+.data-process-page li {
+  margin-left: 1rem;
+}

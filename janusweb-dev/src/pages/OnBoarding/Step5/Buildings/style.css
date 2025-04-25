@@ -1,0 +1,78 @@
+.select_building_main {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.select_building {
+  width: 170px;
+  margin: 0rem 0rem 2rem 0rem;
+  cursor: pointer;
+}
+
+.step3_head {
+  font-weight: 600;
+  color: #000000;
+  font-size: 1.9rem;
+  text-align: center;
+}
+
+.step3_div {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.step_import_main {
+  width: 39vw;
+  /* height: 17vh; */
+  border-radius: 1.2rem;
+  border: 2px solid #d9d9d9;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.8rem 0;
+  margin-bottom: 1rem;
+}
+
+.stepimport_icon {
+  /* width: 30%; */
+  text-align: center;
+}
+
+.import_upload_icon {
+  font-size: 2.5rem;
+  color: #35c7fb;
+}
+
+.step_plus_icon {
+  font-size: 2.5rem;
+  color: #ed7d31;
+}
+
+.step_construc_icon {
+  font-size: 2.5rem;
+  color: #4c5766;
+}
+
+.step_import_heading {
+  font-weight: 600;
+  color: #000000;
+  font-size: 1.2rem;
+  margin-bottom: 3px !important;
+}
+
+.step_maintenance_main {
+  /* margin: 2rem 0; */
+}
+
+.step_import_heading_main {
+  width: 70%;
+}
+
+.active_import_div {
+  border: 4px solid #333f50 !important;
+}

@@ -1,0 +1,59 @@
+.step1_main {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+}
+
+.step1 {
+  width: 25rem;
+}
+
+.janus_head {
+  font-weight: 600;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 12%;
+}
+
+.janus_para {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 16%;
+}
+
+.step1_started_btn {
+  height: 3rem;
+  width: 10rem;
+  border-radius: 10px;
+  background-color: #ed7d31;
+  border-color: #ed7d31;
+  /* font-weight: 600;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.step1_submit_btn_main {
+  display: flex;
+  justify-content: center;
+}
+
+.onboarding_stepper {
+  width: 35rem !important;
+  margin-left: 7rem !important;
+}
+.onboarding_stepper > div > div > div > div > span > img {
+  margin-bottom: 37.4% !important;
+}
+
+.onboarding_stepper > div > div > div > div {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  /* border: 2.7px solid black; */
+  /* background: white !important; */
+}

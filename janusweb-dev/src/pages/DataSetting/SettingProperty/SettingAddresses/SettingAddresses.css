@@ -1,0 +1,20 @@
+.add_address {
+  width: 11rem !important;
+
+  float: right;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 0.55rem 0.75rem !important;
+  border-radius: 24px !important;
+}
+
+.address_table {
+  height: 19rem;
+  overflow-y: scroll !important;
+}
+
+.rental_search {
+  margin-bottom: 1rem;
+}

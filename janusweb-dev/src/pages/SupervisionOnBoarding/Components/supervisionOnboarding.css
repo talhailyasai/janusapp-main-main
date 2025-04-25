@@ -1,0 +1,163 @@
+.supervision_onBoarding .step5_maintenance_para {
+  text-align: center;
+}
+/* .supervision_onBoarding .property_wizard_slect {
+  width: 20% !important;
+} */
+.supervision_onBoarding .step3_div {
+  width: 100%;
+}
+.supervision_onBoarding .diagram-main {
+  justify-content: start;
+}
+.supervision_onBoarding .check_1 {
+  top: 0%;
+  left: 29%;
+}
+.supervision_onBoarding .check_2 {
+  top: 7%;
+  left: 11%;
+}
+.supervision_onBoarding .check_3 {
+  top: 20%;
+  left: 2%;
+}
+.supervision_onBoarding .check_5 {
+  top: 70%;
+  left: 5%;
+}
+
+.supervision_onBoarding .check_4 {
+  top: 44%;
+  left: -20%;
+}
+
+.supervision_onBoarding .check_9 {
+  top: -5%;
+  right: 35%;
+}
+
+.supervision_onBoarding .check_11 {
+  top: -2%;
+  right: 6%;
+}
+
+.supervision_onBoarding .check_12 {
+  top: 16%;
+  right: -4%;
+}
+
+.supervision_onBoarding .check_13 {
+  top: 31%;
+  right: -8%;
+}
+
+.supervision_onBoarding .check_14 {
+  top: 44%;
+  right: 3%;
+}
+
+.supervision_onBoarding .check_15 {
+  top: 53%;
+  right: 22%;
+}
+
+.supervision_onBoarding .check_18 {
+  top: 80%;
+  right: 30%;
+}
+
+.supervision_onBoarding .check_17 {
+  top: 70%;
+  right: 26%;
+}
+.supervision_onBoarding .plan_image_select {
+  border: none;
+  padding: 0 28px 0 0;
+  font-size: 14px;
+  color: black;
+  box-shadow: none;
+}
+.supervision_onBoarding .dXTYiR {
+  overflow: visible;
+}
+.supervision_onBoarding .plan_image_select:focus {
+  box-shadow: none;
+}
+.supervision_onBoarding .quantity_field::-webkit-outer-spin-button,
+.supervision_onBoarding .quantity_field::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.supervision_onBoarding .quantity_field {
+  font-size: 12px;
+  color: black;
+}
+.supervision_onBoarding .attendance_field {
+  width: 32px !important;
+  padding: 0.25rem 0;
+  text-align: center !important;
+}
+.supervision_onBoarding .position_field {
+  width: 125px;
+  text-align: start;
+  padding: 0.25rem 0.55rem;
+  font-size: 12px;
+  font-weight: 400;
+  color: black;
+  border: 0.0625rem solid #d1d7e0;
+  border-radius: 5px;
+}
+.supervision_onBoarding .maintenance_item_count {
+  width: 7rem;
+}
+.package_text_tooltip .tooltip-inner {
+  max-width: 400px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+.supervision_onBoarding .package_table {
+  max-height: 350px;
+}
+.supervision_onBoarding .accordian_main {
+  max-height: 350px;
+  width: 99%;
+}
+.hide-calendar-icon::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
+.hide-calendar-icon {
+  -moz-appearance: textfield;
+}
+.hide-select-arrow {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* For IE */
+.hide-select-arrow::-ms-expand {
+  display: none;
+}
+
+.supervision_onBoarding .table-select-field {
+  padding: 0.25rem 5px !important;
+}
+.supervision_onBoarding .pagination_planing_table {
+  position: relative;
+}
+
+.supervision_onBoarding .pagination_planing_table .rdt_TableCell:last-child {
+  position: sticky !important;
+  right: 0;
+  z-index: 2;
+  background-color: #eeeeee;
+}
+
+.supervision_onBoarding .pagination_planing_table .rdt_TableCol:last-child {
+  position: sticky !important;
+  right: 0;
+  z-index: 3;
+}

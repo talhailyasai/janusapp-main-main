@@ -1,0 +1,276 @@
+.import_main {
+  margin-top: 3rem;
+}
+
+.import_select_btn {
+  margin-bottom: 3rem;
+  color: #ed7d31;
+  border: 2px solid #ed7d31;
+  border-radius: 10px;
+  background-color: white;
+  padding: 0.7rem;
+  width: 12.5rem;
+  cursor: pointer;
+}
+.delete_select_btn {
+  height: 40px;
+  color: #ed7d31;
+  border: 2px solid #ed7d31;
+  border-radius: 10px;
+  background-color: white;
+  width: 10.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.import_error {
+  background-color: rgba(219, 68, 55, 0.25) !important;
+  border: 3px solid #db4437 !important;
+}
+
+.import_error_div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.import {
+  width: 2rem;
+  margin-top: 0 !important;
+  padding: 0.4rem !important;
+}
+
+.import-btn {
+  width: 150px !important;
+  margin-top: 0 !important;
+  padding: 0.2rem !important;
+}
+
+.import_table_main {
+  /* width: 88%; */
+}
+
+.create_property_bulding_btn {
+  margin: 0.2rem 0.7rem !important;
+  border-radius: 1.8rem !important;
+  background-color: #ed7d31 !important;
+  border-color: #ed7d31 !important;
+  padding: 0.5rem !important;
+  width: 16rem !important;
+}
+
+.import_data_btn {
+  background-color: #ed7d31 !important;
+  border-color: #ed7d31 !important;
+  width: 12rem !important;
+  border-radius: 1.8rem !important;
+  float: right !important;
+  margin-bottom: 2rem !important;
+}
+
+.import_add_build_icon {
+  font-size: 1.5rem !important;
+  margin-right: 0.3rem !important;
+}
+
+.import_dropdown_icon {
+  font-size: 1.5rem;
+}
+
+.import_build_drop {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.7rem 0.9rem;
+}
+
+.import_build_cancel {
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.import_build_code_main {
+  padding: 0 0.9rem;
+  cursor: pointer;
+}
+
+.table_property_name {
+  font-size: 16px !important;
+}
+
+.property_hr {
+  color: black !important;
+}
+
+.import_build_back_arrow {
+  cursor: pointer;
+}
+
+.import_prop_drop {
+  padding: 0rem 0.9rem;
+  padding-top: 1rem;
+  column-gap: 0.7rem !important;
+}
+
+.building_modal_header {
+  background-color: #333f50 !important;
+}
+
+.building_modal_title {
+  color: white !important;
+}
+
+.building_modal_footer {
+  justify-content: space-between !important;
+  padding: 1rem 2rem !important;
+  background-color: #f5f8fb !important;
+}
+
+.building_close_btn {
+  background-color: white !important;
+  border: 1px solid #333f50 !important;
+  color: #333f50 !important;
+  width: 7rem;
+  padding: 0.4rem 0.7rem !important;
+}
+
+.building_submit_btn {
+  width: 8rem;
+  padding: 0.4rem 0.7rem !important;
+}
+
+.create_building_form_main {
+  margin-top: 3rem;
+}
+
+.create_building_field {
+  margin-top: 1.4rem;
+}
+
+.import_generate_value {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.setting_duration_main {
+  margin-top: 2rem;
+}
+
+.import_popup {
+  width: 20rem !important;
+}
+
+.downloadTemplate {
+  color: #333f50;
+}
+
+.import_disable_btn {
+  background-color: gray !important;
+  border-color: gray !important;
+}
+
+.building_search {
+  text-transform: uppercase !important;
+}
+
+.select_property_head {
+  color: blue !important;
+  cursor: pointer;
+}
+
+.prop_footer {
+  justify-content: center !important;
+}
+
+.setting_create_btn {
+  width: 10rem !important;
+}
+
+.setting_name {
+  margin-bottom: 1.4rem;
+  display: flex;
+  align-items: center;
+}
+.setting_name_div {
+  width: 40%;
+  background: #d9d9d9;
+  padding: 0.55rem 0.75rem;
+  border-radius: 10px 0 0 10px;
+  color: #333f50;
+  font-size: 14px;
+  font-weight: 600;
+  height: 42px;
+}
+
+.setting_name_field {
+  border-radius: 0 10px 10px 0 !important;
+}
+
+.general_percent {
+  background-color: #333f50;
+  width: 20%;
+  padding: 0.55rem 0.75rem;
+  color: white;
+  text-align: center;
+  border-radius: 0 10px 10px 0 !important;
+}
+
+.setting_general_field {
+  border-radius: 0 0 0 0 !important;
+}
+
+.general_main {
+  width: 58% !important;
+}
+
+.property_close_btn {
+  width: 10rem !important;
+}
+
+.proeprty_setup_btn {
+  width: 10.5rem !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.import_inner_flag {
+  width: 11rem !important;
+}
+
+.import_table {
+  overflow-x: scroll;
+  width: 99%;
+}
+
+.import_table_main {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+/* Import Responsive  */
+
+@media only screen and (max-width: 390px) {
+  .table_property_name {
+    font-size: 0.8rem !important;
+  }
+
+  .create_property_bulding_btn {
+    font-size: 0.8rem !important;
+  }
+  .import_add_build_icon {
+    font-size: 1rem !important;
+  }
+
+  .import_popup {
+    width: 17rem !important;
+  }
+
+  .create_property_bulding_btn {
+    width: 12rem !important;
+  }
+}

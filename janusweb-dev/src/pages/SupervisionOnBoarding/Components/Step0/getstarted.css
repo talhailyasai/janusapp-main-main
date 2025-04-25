@@ -1,0 +1,37 @@
+.get_started_container {
+  display: flex;
+  justify-content: center;
+}
+.get_started_container .get_started_wrapper {
+  width: 25rem;
+}
+.get_started_container .start_janus_head {
+  font-weight: 600;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 12%;
+}
+.get_started_container .start_janus_para {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 16%;
+}
+.start_submit_btn_main {
+  display: flex;
+  justify-content: center;
+}
+.start_started_btn {
+  height: 3rem;
+  width: 13rem;
+  border-radius: 10px;
+  background-color: #ed7d31;
+  border-color: #ed7d31;
+}
+.start_ronder_btn {
+  background: #fff;
+  border-color: #ed7d31;
+  color: #ed7d31;
+  height: 3rem;
+  width: 13rem;
+  border-radius: 10px;
+}

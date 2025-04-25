@@ -1,0 +1,357 @@
+.maintenance_package_main {
+  display: flex;
+  justify-content: space-between;
+}
+.package_table {
+  width: 51% !important;
+  overflow-x: auto;
+  max-height: 750px;
+  overflow-y: auto;
+}
+.package_table tbody {
+  background-color: white;
+}
+.accordian_table_main {
+  width: 49% !important;
+}
+.accordion-button {
+  padding: 0rem 0rem !important;
+  /* border: 0.0625rem solid #f5f8fb !important; */
+  /* background-color: #f5f8fb !important; */
+  margin-left: 0px !important ;
+}
+
+.package_name_main_field {
+  background: white;
+  border: 1px solid #333f50;
+  border-radius: 5px;
+  padding: 0.3rem 0.5rem;
+  font-weight: 700;
+  font-size: 14px;
+  color: #000000;
+  width: 17rem;
+  display: flex;
+  align-items: center;
+  margin-right: 0.8rem;
+}
+.maintenance_package_create_icon {
+  color: green;
+  cursor: pointer;
+  font-size: 25px;
+  float: right;
+}
+.accordian_main {
+  margin-left: auto;
+  padding: 1rem;
+  padding-right: 0px;
+  width: 89%;
+  max-height: 750px;
+  overflow-y: auto;
+}
+.accordian_header_main {
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+}
+
+.package_div_header_main {
+  margin-bottom: 1rem;
+  background: #d9d9d9;
+  height: 7vh;
+  display: flex;
+  color: black;
+  border: 1px solid #333f50;
+}
+
+.package_name_header {
+  padding: 0.9rem 1rem;
+  width: 47%;
+  margin-bottom: 0px !important;
+}
+.edit_delete_icons_main {
+  display: flex;
+  align-items: center;
+  border-radius: 7px;
+}
+.edit_icon {
+  color: #333f50;
+  cursor: pointer;
+  margin-right: 0.3rem;
+  font-size: 1.2rem;
+}
+.delete_icon {
+  color: #333f50;
+  cursor: pointer;
+  margin-right: 0.3rem;
+  font-size: 1.2rem;
+}
+.accordion-button {
+  position: inherit !important;
+}
+.accordion_body {
+  padding-top: 0.4rem !important;
+  padding-left: 0.4rem !important;
+  padding-right: 0.4rem !important;
+  padding-bottom: 0px !important;
+  overflow-x: scroll !important;
+  background-color: white;
+}
+.maintenance_package_dropdown {
+  background-color: gray !important;
+  border-color: gray !important;
+  color: white !important;
+  font-size: 0.8rem !important;
+  display: flex !important;
+  align-items: center !important;
+  height: 2rem !important;
+  white-space: pre-wrap !important;
+}
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+.accordian_table_cell {
+  white-space: pre-wrap !important;
+}
+.maintenancePackage_table {
+  /* border: 1px solid #d9d9d9; */
+  border-radius: 5px !important;
+  margin-bottom: 0.5rem !important;
+}
+.maintenance_item_count {
+  color: #000000;
+  font-weight: 600;
+  width: 10rem;
+}
+
+#SC1 {
+  background-color: #f6df0b;
+  color: white;
+}
+
+#SD1 {
+  background-color: #b8ba5f;
+  color: white;
+}
+
+#SC2 {
+  background-color: #2f566c;
+  color: white;
+}
+
+#SD2 {
+  background-color: #428740;
+  color: white;
+}
+
+#SC3 {
+  background-color: #be370d;
+  color: white;
+}
+
+#SD3 {
+  background-color: #7a7a7a;
+  color: white;
+}
+
+#SC4 {
+  background-color: #4371e9;
+  color: white;
+}
+
+#SD4 {
+  background-color: #ac7104;
+  color: white;
+}
+
+#SC5 {
+  background-color: #ac3eef;
+  color: white;
+}
+
+#SD5 {
+  background-color: #f793f9;
+  color: white;
+}
+
+#SC6 {
+  background-color: #db915b;
+  color: white;
+}
+
+#SD6 {
+  background-color: #6feae2;
+  color: white;
+}
+
+#SC7 {
+  background-color: #073031;
+  color: white;
+}
+
+#SC8 {
+  background-color: #cfcccf;
+}
+
+#SG1 {
+  background-color: #f66810;
+  color: white;
+}
+
+#SG2 {
+  background-color: #00b2b2;
+  color: white;
+}
+#SG3 {
+  background-color: #6fb8fc;
+  color: white;
+}
+#SC0 {
+  background-color: white;
+  border: 2px solid #7a7a7a;
+  color: #333;
+}
+
+.maintenance_package_u_system {
+  font-weight: bold;
+  color: black;
+}
+.temp1 {
+  width: 2rem !important;
+}
+
+.components_main {
+  border: 1px solid #d9d9d9;
+  border-radius: 7px !important;
+  background-color: white;
+}
+
+.maintenance_package_heading {
+  color: black !important;
+  font-weight: bold !important;
+  text-align: center;
+}
+
+.package_accordian {
+  width: 100% !important;
+  background-color: #d9d9d9;
+  padding: 0 1rem;
+  height: 80px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #333f50;
+}
+
+.maintenancePackage_table {
+  background-color: white;
+  /* background-color: #f5f8fb; */
+  border-radius: 7px !important;
+}
+
+.add_package_btn {
+  width: 26% !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  border-radius: 17px !important;
+  height: 2.4rem !important;
+}
+.maintenance_pkg_main {
+  margin-bottom: 2rem;
+}
+.add_package_plus {
+  margin-right: 0.3rem !important;
+}
+.add_package_btn_main {
+  display: flex;
+  justify-content: end;
+}
+
+.component_package_add {
+  width: 9rem !important;
+}
+
+.component_package_add_btn {
+  float: right !important;
+}
+
+.maintenance_pkg_technical_life {
+  max-width: 5rem !important;
+}
+
+.maintenance_pkg_activity {
+  min-width: 19rem !important;
+}
+
+.maintenance_pkg_activity > .maintenance_pkg_tooltip {
+  background-color: none !important;
+}
+
+.component_add {
+  width: 11rem !important;
+}
+
+@media screen and (max-width: 1030px) {
+  .package_name_main_field {
+    font-size: 10px !important;
+  }
+
+  .maintenance_item_count {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 982px) {
+  .accordian_table_main {
+    width: 100% !important;
+  }
+  .maintenance_package_main {
+    display: block;
+  }
+  .package_table {
+    width: 100% !important;
+  }
+
+  .accordian_main {
+    margin-left: 0 !important;
+    padding: 0 !important;
+    padding-right: 0 !important;
+    width: 100%;
+  }
+  .package_name_main_field {
+    font-size: 10px !important;
+  }
+
+  .maintenance_item_count {
+    font-size: 11px;
+  }
+
+  .accordion-button {
+    width: 90% !important;
+  }
+
+  .accordian_header_main {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  .package_table {
+    overflow-x: scroll;
+    width: 46%;
+  }
+}
+
+.dragging {
+  opacity: 1 !important;
+  background: #f9f9f9;
+  border: 1px dashed #ccc;
+}
+
+.package-hovered {
+  background-color: #f0f8ff; /* Light blue for hover indication */
+  border: 2px dashed #007bff; /* Dashed border for clarity */
+  transition: background-color 0.3s, border 0.3s;
+}
+
+.accordian_table_main .accordion_header_main {
+  transition: all 0.3s ease;
+}

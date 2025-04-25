@@ -1,0 +1,175 @@
+.serach-input-field {
+  position: relative;
+  width: 100%;
+}
+.serach-input-field-bar {
+  margin-top: 180px;
+}
+
+.serach-input-field .serach-field-list {
+  position: absolute;
+  top: 106.7%;
+  height: 275px;
+  width: 100%;
+  left: 2px;
+  background: white;
+  border-radius: 10px;
+  z-index: 999999;
+  border: 1px solid rgb(179, 179, 179);
+}
+
+.sreach-tags {
+  display: flex;
+  column-gap: 5px;
+  width: 100%;
+  flex-wrap: wrap;
+  row-gap: 4px;
+  padding: 8px;
+}
+
+.sreach-tags .search-tag {
+  border: 1px solid rgb(211, 211, 211);
+  padding: 5px 10px;
+  color: black;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.search-active-tag {
+  background: rgb(169, 169, 233) !important;
+  border: 2px solid blue !important;
+}
+
+.serach-field-list .property_list {
+  height: 200px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  color: black !important;
+  padding: 4px 8px;
+}
+
+.serach-field-list .property_list .property_element {
+  padding: 5px;
+  border: 1px solid rgb(160, 160, 160);
+  margin: 4px 0px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.serach-input-field .form-control {
+  width: 100%;
+  max-width: 220px;
+}
+
+.serach-input-field .serach-field-list {
+  max-width: 220px;
+}
+
+.nav-item .nav-link,
+.collapsable-nav-item {
+  width: 100%;
+  max-width: 220px;
+  word-break: break-word;
+}
+
+/* styles to control sidebar width  */
+.sidebar {
+  transition: width 0.3s ease;
+  width: 250px;
+  height: 100vh;
+}
+
+.sidebar-collapsed {
+  width: 60px !important;
+  min-width: 60px !important;
+}
+
+/* Keep the inner content full height */
+.sidebar-inner {
+  width: 100%;
+}
+
+/* Adjust nav items spacing */
+/* .nav.flex-column {
+  padding-top: 0.25rem;
+} */
+
+/* Keep the toggle button visible */
+.collapse-toggle {
+  position: absolute;
+  right: 15px;
+  top: 20px;
+  color: white;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  transition: transform 0.3s ease;
+}
+
+/* Collapsed state adjustments */
+.sidebar-collapsed .nav-link {
+  padding: 0.75rem 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Hide text elements in collapsed state */
+.sidebar-collapsed .create_home_drawer {
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+}
+
+/* Logo adjustments */
+.collapsed-logo {
+  margin-top: 119% !important;
+}
+
+.collapsed-logo img {
+  width: 35px;
+  height: 35px;
+}
+
+/* Ensure smooth transitions */
+/* .nav-link,
+.sidebar-icon,
+.collapse-toggle {
+  transition: all 0.3s ease;
+} */
+
+/* Adjust padding in collapsed state */
+.sidebar-collapsed .sidebar-inner {
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+}
+
+/* Center items in collapsed state */
+.sidebar-collapsed .nav-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.sidebar-collapsed .property_image_main {
+  padding: 0px;
+  width: auto;
+  justify-content: center;
+  border-bottom: none;
+}
+.data-settings-sidebar .sidebar-icon {
+  color: rgb(53, 199, 251) !important;
+  font-size: 20px;
+}
+.data-settings-sidebar .nav-link:hover .sidebar-icon {
+  color: #eaedf2 !important;
+}

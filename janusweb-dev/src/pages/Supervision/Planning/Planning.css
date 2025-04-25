@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.planning_dropdown > .btn-primary {
+  color: #0091b3 !important;
+  border-color: white !important;
+  background-color: white !important;
+  box-shadow: none !important;
+  font-weight: 700 !important;
+}
+
+.planning_dropdown_menu {
+  height: 10rem !important;
+  overflow-y: scroll;
+}
+
+.planning_component_code {
+  color: #0091b3;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.downArrow {
+  color: #333f50;
+  font-size: 0.8rem;
+}
+
+.rdt_TableHeadRow {
+  border-bottom: 3px solid black !important;
+  height: 70px;
+}
+.planning_table .rdt_TableCol_Sortable {
+  align-items: end !important;
+}
+.sc-eDPEul {
+  font-weight: bolder !important;
+}
+
+.supervision_home_icon {
+  font-size: 4rem;
+}
+
+.planning_component_code {
+  font-weight: 700 !important;
+}
+
+.planning_building_code {
+  margin-bottom: 0 !important;
+}
+
+.eyfBrq {
+  align-items: center !important;
+}
+
+.email_wrapper {
+  font-size: 14px !important;
+}
+
+.create_edit_table > .bGAZgb > .kYOncR > .QSnYe > .bQmxAv > .iCBDZp {
+  padding-left: 0 !important;
+}
+
+.dropdown_menu {
+  padding: 0 !important;
+}
+
+.user_email {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  color: #0091b3;
+}
+
+.planning_name {
+  font-size: 12px !important;
+}
+/* ............Analysis Responsive......................... */
+
+@media only screen and (max-width: 844px) {
+  .analysisBottom {
+    flex-direction: column;
+  }
+
+  .supervision_property_name {
+    font-size: 9px;
+  }
+
+  .propertyIcon {
+    font-size: 13px !important;
+    height: fit-content !important;
+  }
+
+  .buildingIcon {
+    height: fit-content !important;
+    font-size: 13px !important;
+  }
+
+  .compColor {
+    width: 0.7rem !important;
+    height: 0.7rem !important;
+  }
+
+  .fixed-column {
+    min-width: auto !important;
+  }
+  .analysis_expand_icon {
+    font-size: 15px;
+  }
+
+  .analysis_jan_label > .form-check-input {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+
+  .superVanalysisMain {
+    width: auto !important;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .analysisBottom {
+    width: 100% !important;
+  }
+}
+
+/* .................................. */
+/* Follow Up Responsive */
+@media only screen and (max-width: 900px) {
+  .planning_month_head {
+    font-size: 11px;
+  }
+  .pin {
+    width: 17px !important;
+    height: 17px !important;
+    font-size: 10px;
+  }
+  .pinCheckMap {
+    height: 0.8rem !important;
+    width: 0.8rem !important;
+    margin-right: 0.4rem !important;
+  }
+
+  .mapMain {
+    flex-direction: column !important;
+  }
+  .mapLeft {
+    order: 2;
+    width: 100% !important;
+  }
+  .mapRight {
+    order: 1;
+    width: auto !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    border-left: 1px solid #c9c9c9 !important;
+  }
+
+  .follow_up_map_pin {
+    display: flex !important;
+    column-gap: 2rem !important;
+  }
+
+  .follow_month_check > .form-check-input {
+    height: 1em !important;
+    width: 1.8em !important;
+  }
+}
+
+/* @media (min-width: 769px) and (max-width: 1080px) {
+  .mapRight {
+    padding-left: 15%;
+  }
+
+  .planning_filter_select {
+    font-size: 0.8rem;
+  }
+} */
+
+/* .................................. */
+/* Planning Responsive */
+@media only screen and (max-width: 350px) {
+  .planning_users_main {
+    flex-direction: column !important;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .planning_filter_icon {
+    display: none;
+  }
+
+  /* .planning_filter_main {
+    padding-right: 0 !important;
+  }
+
+  .planning_row {
+    margin-right: 0 !important;
+  }
+
+  .planning_filter_name {
+    font-size: 10px;
+  }
+  .planning_filter_btn {
+    padding: 0.55rem 0.3rem !important;
+  }
+
+  .planning_filter_select {
+    font-size: 11px !important;
+  }
+
+  .planning_filter_find_btn {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+    font-size: 12px !important;
+    border-radius: 1rem !important;
+  }
+  .filter_dropdown_toogle {
+    margin-top: 0 !important;
+    width: 9rem;
+    font-size: 12px !important;
+  }
+
+  .planning_dropdown {
+    min-width: 220px !important;
+    max-width: 220px !important;
+  }
+
+  .planning_search {
+    font-size: 12px !important;
+  }
+
+  .planning_users_main {
+    gap: 31px !important;
+  }
+  .planning_user_checkbox {
+    width: 1.125em !important;
+    height: 1.125em !important;
+  }
+  .planning_user_checkbox_main {
+    width: 0% !important;
+  }
+
+  .planning_user_filter {
+    font-size: 9px !important;
+    padding-right: 0.3rem !important;
+    padding-left: 0.3rem !important;
+  }
+
+  .planning_user_filter_main {
+    flex-direction: column;
+    width: fit-content !important;
+    overflow-y: scroll !important;
+  } */
+}
+
+/* .pagination_planing_table
+  > .sc-dtBdUo
+  > .rdt_Table
+  > .rdt_TableBody
+  > .bQmxAv
+  > {
+  min-height: 100px !important;
+  align-items: center !important;
+} */
+
+.supervision_table
+  .rdt_TableHeadRow
+  > [data-column-id="planing_responsible_user"] {
+  max-width: 222px !important;
+  min-width: 193px !important;
+}
+.planning_table .rdt_TableHeadRow > [data-column-id="planing_component_code"] {
+  max-width: 140px !important;
+  min-width: 87px !important;
+}
+.planning_table .rdt_TableCol > [data-column-id="5"] {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.planning_table .rdt_TableBody,
+.planning_table .planning_building_code,
+.planning_table .planning_component_code,
+.planning_table .email_wrapper,
+.planning_table .planning_name {
+  font-size: 12px !important;
+}

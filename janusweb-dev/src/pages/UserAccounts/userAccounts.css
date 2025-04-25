@@ -1,0 +1,25 @@
+.currPlan {
+  width: fit-content;
+  border: 1px solid;
+  padding: 1rem 2rem 1rem 1rem;
+  background: white;
+  border-radius: 7px;
+  margin-bottom: 1rem;
+}
+.plan {
+  font-weight: bold;
+}
+.billingBtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 13.5rem;
+}
+
+.user_accounts_actions {
+  margin-bottom: 2rem !important;
+}
+
+.useraccount_action_div {
+  margin-bottom: 6.7rem;
+}

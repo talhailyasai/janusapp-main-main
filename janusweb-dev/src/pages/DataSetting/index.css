@@ -1,0 +1,22 @@
+.maintenanceItem_Table .text_attendenance_icon {
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.maintenanceItem_Table .text_attendenance_icon:hover {
+  color: #2196f3;
+}
+
+.component-text-modal .modal-body {
+  padding: 1.5rem;
+}
+
+.component-text-modal .modal-header {
+  border-bottom: 1px solid #eee;
+  padding: 1rem 1.5rem;
+}
+
+.component-text-modal .modal-title {
+  font-size: 1.25rem;
+  color: #333;
+}

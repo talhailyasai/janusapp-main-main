@@ -1,0 +1,113 @@
+.step4_main {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.step4_div {
+  width: 50%;
+}
+
+.step_maintenance_heading {
+  font-weight: 600;
+  font-size: 1.9rem;
+  text-align: center;
+  color: #000000;
+}
+
+.step4_para {
+  margin-top: 2rem;
+  font-weight: 600;
+  color: #000000;
+  font-size: 1rem;
+}
+
+.step4_setting_form {
+  width: 70%;
+}
+
+.step4_setting_main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.step4_fill_btn {
+  border-color: #ed7d31;
+  color: #ed7d31;
+  background: none;
+  width: 14.2rem;
+  height: 3rem;
+}
+
+.step4_fill_btn_main {
+  float: right;
+}
+
+.step4_name_label {
+  width: 60% !important;
+  display: flex;
+  align-items: center;
+  padding: 0 0.75rem !important;
+}
+
+.step_surcharge_label {
+  width: 74% !important;
+  display: flex;
+  align-items: center;
+  padding: 0 0.75rem !important;
+}
+
+.step4_use_index_main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.step4_check_main {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.step4_check_main .form-check-input {
+  margin: 0px !important;
+}
+
+.step4_use_index_label_main {
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  width: 14rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.step_4continue {
+  margin-bottom: 2rem;
+  /* margin-top: 4rem; */
+}
+
+.maintenance_plan_btn_main {
+  margin-top: 2.5rem;
+}
+.step4_main .react-datepicker-wrapper,
+.step4_main .settings_field_height,
+.step4_main .general_percent {
+  height: 42px !important;
+}
+.step4_main .general_percent {
+  border: 0.0625rem solid #333f50 !important;
+}
+.step4_main .step_date_picker_name {
+  width: 58.5% !important;
+}
+.step4_main .react-datepicker-wrapper .year_picker_field {
+  height: 42px !important;
+  border-radius: 0 10px 10px 0 !important;
+  align-items: center !important;
+  padding: 0.55rem 0.75rem !important;
+}

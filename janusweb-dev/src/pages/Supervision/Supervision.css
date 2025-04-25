@@ -1,0 +1,358 @@
+.mapMain {
+  display: flex;
+}
+.mapLeft {
+  height: 70vh;
+  width: 68%;
+}
+.mapRight {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #c9c9c9;
+  width: 20vw;
+  border-left: none;
+}
+.pin {
+  width: 30px;
+  height: 30px;
+  border-radius: 50% 50% 50% 0;
+  /* background: red; */
+  transform: rotate(-45deg);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.c_red {
+  background: #ea352b;
+}
+
+.c_yellow {
+  background: #ffc700;
+}
+
+.c_black {
+  background: #000000;
+}
+
+.pin span {
+  transform: rotate(45deg);
+}
+.pinCheckMap {
+  width: 1.7rem;
+  height: 1.7rem;
+  margin-right: 1rem;
+}
+.pinCheck {
+  display: flex;
+  margin-bottom: 2rem;
+}
+.superVisionPopup {
+  background-color: white !important;
+  margin-left: 0.7rem !important;
+  max-height: 18rem;
+  overflow-y: auto;
+  border-radius: 5px;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.popup_header {
+  display: flex;
+  column-gap: 2rem;
+}
+.popup-buildName {
+  font-weight: 700;
+  margin-bottom: 0px !important;
+}
+.popup-buildCode {
+  margin-bottom: 2px !important;
+}
+.compStatus {
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  margin-top: 0.3rem;
+}
+.popup_table_data {
+  color: black;
+  font-weight: 600;
+}
+.superVanalysisMain {
+  width: 76vw;
+  border: 1px solid #d6d6d6;
+  overflow-x: scroll;
+  background-color: white;
+  height: 57vh;
+}
+.analysisTableHeaders {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 0.5rem;
+}
+.analysisRight {
+  display: flex;
+  background: white;
+  border: 1px solid #d6d6d6;
+}
+.analysisRightInner {
+  padding: 1rem 0.5rem;
+}
+.analysisRightHead {
+  padding: 0.5rem;
+  background: rgb(46, 54, 80);
+  color: rgb(245, 248, 251);
+  border-radius: 5px;
+}
+
+.analysisPercentAges {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+.analysisRightPercent {
+  padding: 0.3rem 0.5rem;
+  border: 1px solid;
+  border-radius: 6px;
+  text-align: center;
+}
+.analysisRow {
+  height: 3rem;
+}
+/* .analysisRow:hover{
+  background-color: #efefef;
+} */
+.analysisBottom {
+  display: flex;
+  margin: auto;
+  width: 35vw;
+  justify-content: space-around;
+  margin-top: 3rem;
+  border: 1px solid #bebebe;
+  padding: 1rem;
+  border-radius: 7px;
+}
+.bottomSelector {
+  padding: 0.3rem 2.3rem;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.activeSelector {
+  background: rgb(46, 54, 80);
+  color: rgb(245, 248, 251);
+}
+.bottomSelector:hover {
+  cursor: pointer;
+}
+.pipeLine {
+  border: 1px solid #cccccc;
+}
+.plottingValue {
+  width: 1.3rem;
+  border-radius: 3px;
+  margin: auto;
+  font-weight: 700;
+  margin-right: 4px;
+}
+.valueT {
+  background-color: #d7d7d7;
+  color: rgb(46, 54, 80);
+}
+.valueS {
+  color: white;
+  background-color: rgb(46, 54, 80);
+}
+.analysisHeader {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #f5f8fb;
+}
+.buildingDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 0.2rem;
+  margin-right: 1rem;
+}
+
+.table-container {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+/* .tableSuper {
+  min-width: 100%; 
+  table-layout: fixed;
+} */
+
+.fixed-column {
+  position: sticky;
+  left: 0;
+  /* z-index: 1; */
+  background-color: white !important;
+  min-width: 22rem;
+}
+.fixed-column::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 100%; /* Adjust this value to set the width of the border */
+  width: 1px; /* Adjust this value to set the width of the border */
+  height: 100%;
+  background-color: #ccc; /* Color of the border */
+}
+
+.headerRow {
+  background-color: #f5f5f5 !important;
+}
+.fWgt {
+  font-weight: 700;
+  margin-left: 5px;
+}
+.propertyIcon {
+  font-size: 18px;
+  background-color: #494949;
+  color: white;
+  padding: 3px;
+  border-radius: 5px;
+  height: 23px;
+}
+.buildingIcon {
+  color: #333f50;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  font-size: 19px;
+  padding: 1px 2px;
+  height: 23px;
+}
+.buildingHead {
+  margin-left: 2rem;
+  margin-top: 0.1rem;
+}
+#SC1 {
+  background-color: #f6df0b;
+  color: white;
+}
+
+#SD1 {
+  background-color: #b8ba5f;
+  color: white;
+}
+
+#SC2 {
+  background-color: #2f566c;
+  color: white;
+}
+
+#SD2 {
+  background-color: #428740;
+  color: white;
+}
+
+#SC3 {
+  background-color: #be370d;
+  color: white;
+}
+
+#SD3 {
+  background-color: #7a7a7a;
+  color: white;
+}
+
+#SC4 {
+  background-color: #4371e9;
+  color: white;
+}
+
+#SD4 {
+  background-color: #ac7104;
+  color: white;
+}
+
+#SC5 {
+  background-color: #ac3eef;
+  color: white;
+}
+
+#SD5 {
+  background-color: #f793f9;
+  color: white;
+}
+
+#SC6 {
+  background-color: #db915b;
+  color: white;
+}
+
+#SD6 {
+  background-color: #6feae2;
+  color: white;
+}
+
+#SC7 {
+  background-color: #073031;
+  color: white;
+}
+
+#SC8 {
+  background-color: #cfcccf;
+}
+
+#SG1 {
+  background-color: #f66810;
+  color: white;
+}
+
+#SG2 {
+  background-color: #00b2b2;
+  color: white;
+}
+#SG3 {
+  background-color: #6fb8fc;
+  color: white;
+}
+#SC0 {
+  background-color: white;
+  border: 2px solid #7a7a7a;
+  color: #333;
+}
+
+.compColunm {
+  display: flex;
+  align-items: center;
+  margin-left: 3.8rem;
+}
+.compColor {
+  width: 1rem;
+  height: 1rem;
+  /* border: 1px solid grey; */
+  border-radius: 3px;
+}
+.compName {
+  margin-left: 0.3rem;
+  font-weight: 700;
+}
+.c-pointer {
+  cursor: pointer;
+}
+
+.compPercent {
+  border: 1px solid #333f50;
+  border-radius: 5px;
+  width: 3.5rem;
+  height: 1.4rem;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  font-weight: bold;
+  color: #333f50;
+}
+.compDataMain {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 1.5rem;
+}
+.yearsColunm {
+  min-width: 9rem;
+}

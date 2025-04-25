@@ -1,0 +1,30 @@
+.depositions_end_value_fund_rec {
+  display: block;
+  width: 100%;
+  padding: 0.55rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #66799e;
+  background-clip: padding-box;
+  border: 0.0625rem solid #d1d7e0;
+  appearance: none;
+  border-radius: 0.5rem;
+  box-shadow: none;
+  background-color: #f5f8fb;
+  opacity: 1;
+  height: 2.7rem;
+}
+
+@media (max-width: 800px) {
+  .deposition_Line_main {
+    max-width: none !important;
+    width: 29rem;
+    height: 20rem;
+  }
+}
+@media (min-width: 1500px) {
+  .deposition_Line_main {
+    max-height: 400px;
+  }
+}

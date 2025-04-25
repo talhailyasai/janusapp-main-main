@@ -1,0 +1,15 @@
+.setting_building_main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.setting_building {
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 814px) {
+  .rental_object_search_main {
+    display: block !important;
+  }
+}

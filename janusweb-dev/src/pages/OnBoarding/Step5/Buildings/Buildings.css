@@ -1,0 +1,114 @@
+.buildings_main {
+  width: 20rem;
+  height: fit-content;
+  position: relative;
+  border: 1px solid #333f50;
+  border-radius: 20px;
+  margin-bottom: 1.1rem;
+}
+.building_rows {
+  overflow-y: auto;
+  height: 27rem;
+  margin-bottom: 55px;
+}
+.buildingsPage_main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.stepper_build_page {
+  background-color: white;
+  padding-bottom: 1.3rem;
+}
+
+.buildings_header {
+  background-color: #333f50;
+  border-radius: 20px 20px 0 0;
+  color: white;
+  padding: 0.9rem 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.home_propCode_main {
+  background-color: #d9d9d9;
+  width: fit-content;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: space-between;
+  padding: 0.5rem 0.6rem;
+  margin: 0.5rem;
+  font-weight: 600;
+  font-size: 14px;
+  color: #1c1b1f;
+}
+
+.building_home_icon {
+  margin-right: 0.8rem;
+}
+
+.property_hr_main {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+
+.steeper_property_hr {
+  border-top: 2px solid #333f50;
+  width: 10.75rem;
+}
+
+.building_more_btn_main {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #ed7d31;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: center;
+  cursor: pointer;
+  margin-left: 0.4rem;
+}
+
+.build_name_field {
+  margin-bottom: 0 !important;
+}
+
+.building_name_field_main {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem;
+  align-items: center;
+}
+
+.building_page_head {
+  font-weight: 600;
+  font-size: 32px;
+  color: #333f50;
+  text-align: center;
+  margin-top: 2rem;
+}
+.building_name_hr {
+  width: 100%;
+}
+
+.building_footer_main {
+  background-color: #333f50;
+  height: 3.5rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border: 1px solid #333f50;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.build_tooltip_btn {
+  padding: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+}

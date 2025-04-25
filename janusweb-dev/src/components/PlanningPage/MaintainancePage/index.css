@@ -1,0 +1,42 @@
+.maintenance-package-form .package_input_field {
+  text-align: start !important;
+  padding: 0.25rem 0.55rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #66799e;
+  border: 0.0625rem solid #d1d7e0;
+  border-radius: 5px !important;
+  width: 100px;
+}
+.overview_table .rdt_TableCell,
+.overview_table .rdt_TableCol {
+  padding-left: 0 !important;
+  padding-right: 5px !important;
+}
+.create_edit_table .rdt_TableCell:first-child,
+.create_edit_table .rdt_TableCol:first-child {
+  padding-left: 8px !important;
+}
+.create_edit_table .rdt_TableCell:last-child,
+.create_edit_table .rdt_TableCol:last-child {
+  padding-right: 8px !important;
+}
+.batch_edit_table .rdt_TableCell,
+.batch_edit_table .rdt_TableCol {
+  padding-left: 0 !important;
+  padding-right: 5px !important;
+}
+.create_edit_table::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+.create_edit_table::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.confirmation-section {
+  border-top: 1px solid #eee;
+}
+
+.confirmation-section label {
+  font-size: 0.9rem;
+}

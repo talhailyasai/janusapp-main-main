@@ -1,0 +1,77 @@
+.report_submit_btn {
+  margin-top: 3rem;
+}
+
+/* .maintenance_text_editor > .ql-container > .ql-editor > p {
+  height: 10rem;
+} */
+
+
+.reportMain > label {
+  height: 25rem;
+  width: 25rem;
+}
+.reportImageMain .reportImage {
+  min-width: 290px;
+  height: 290px;
+  object-fit: contain;
+}
+.reportImageMain {
+  display: flex;
+}
+
+.ql-container {
+  min-height: 10rem;
+}
+
+.maintenance_text_editor > .ql-container {
+  background-color: white !important;
+}
+
+.submit-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.save {
+  float: right !important;
+  margin: 0.7rem 0rem !important;
+}
+
+.save_btn {
+  padding: 10px;
+  width: 8rem !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  border-radius: 24px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-around !important;
+  border: none;
+  background-color: rgb(237, 125, 49);
+}
+.save_btn:hover {
+  background-color: rgb(237, 125, 49);
+}
+
+.save_btn div{
+  margin-right: 20px;
+}
+
+.maintain_report_editor_main {
+  width: 70%;
+}
+
+@media (max-width: 768px) {
+  .submit-section{
+    width: 100%;
+  }
+
+  .maintain_report_editor_main {
+    width: 100%;
+  }
+}

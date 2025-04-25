@@ -1,0 +1,35 @@
+.confirmation_modal {
+  background-color: #333f50 !important;
+}
+
+.confirmation_modal_btn {
+  background-color: white !important;
+  color: #333f50 !important;
+}
+
+.confirmation_modal_btn:hover {
+  background-color: #333f50 !important;
+}
+
+.confirmation_modal_footer {
+  background-color: rgb(204, 204, 204);
+  display: flex;
+  justify-content: center;
+  column-gap: 1rem;
+}
+
+.custom_modal {
+  background-color: #333f50 !important;
+}
+
+.custom_modal_text {
+  background-color: rgb(204, 204, 204) !important;
+}
+
+.modal_title_dark {
+  color: white !important;
+}
+
+.modal_title_light {
+  color: black !important;
+}

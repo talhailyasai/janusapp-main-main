@@ -1,0 +1,19 @@
+.profMain{
+    height: 80vh;
+    background-color: white;
+    width: 72vw;
+    margin: auto;
+    border-radius: 6px;
+    margin-top: 2rem;
+}
+.userImg{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.editPic{
+    position: absolute;
+    bottom: 9px;
+    left: 96px;
+    cursor: pointer;
+}

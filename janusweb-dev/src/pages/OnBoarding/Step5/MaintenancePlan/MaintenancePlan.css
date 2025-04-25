@@ -1,0 +1,130 @@
+.maintenance_main {
+  margin-top: 2rem;
+}
+
+.maintenance_plan_head {
+  text-align: center;
+  font-weight: 600;
+  color: #333f50;
+  font-size: 32px;
+  margin-bottom: 3rem;
+}
+
+.maintenance_para {
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+}
+
+.import_card_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Plan Upload */
+
+.csv_uploader {
+  width: 49.4rem;
+  height: 20.1rem;
+  border: 3px dashed #d9d9d9;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.csv_uploader_main {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.4rem !important;
+  width: 49.4rem;
+  margin: auto;
+}
+
+.csv_uploader_icon {
+  font-size: 3rem;
+  color: #44b741;
+}
+
+.csv_uploader_head {
+  font-weight: 600;
+  font-size: 32px;
+  color: #333f50;
+}
+
+.csv_drag_head {
+  font-size: 20px;
+}
+
+.maintenance_done_main {
+  width: 37.5rem;
+  height: 9.3rem;
+  border: 2px solid #d9d9d9;
+  border-radius: 20px;
+  display: flex;
+  column-gap: 2.5rem;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 0 1.3rem;
+  cursor: pointer;
+}
+
+.next_done {
+  display: flex;
+  justify-content: center;
+}
+
+.next_done_head {
+  font-weight: 600;
+  font-size: 20px;
+  color: #000000;
+}
+
+.next_analytics_icon {
+  font-size: 2.5rem;
+  color: #108d91;
+}
+
+.plan_upload_btn_main {
+  margin-top: 3.3rem;
+}
+
+.summary-table-container {
+  margin: 20px 0;
+  overflow-x: auto;
+}
+
+.summary-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.summary-table th,
+.summary-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.summary-table th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+}
+
+.chart-container {
+  margin: 20px 0;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}

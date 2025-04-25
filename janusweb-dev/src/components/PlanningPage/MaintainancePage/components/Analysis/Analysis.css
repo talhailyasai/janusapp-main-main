@@ -1,0 +1,48 @@
+.flag_dropdown {
+  min-width: none !important;
+  width: fit-content !important;
+}
+
+/* @media print {
+  body {
+    margin: 8.6rem 2.8rem 6.3rem 2.8rem;
+  }
+} */
+
+.tooltipM {
+  position: fixed;
+  top: 10px;
+  left: 470px;
+  background-color: #f0f0f0;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  z-index: 1000; /* Ensure the tooltip is above other elements */
+}
+
+/* Analysis Responsive */
+
+/* For Mobile */
+@media only screen and (max-width: 425px) {
+  .analysis_main {
+    padding: 0 !important;
+    width: 38rem !important;
+    height: 20rem !important;
+  }
+}
+/* For Tablet */
+@media only screen and (max-width: 768px) {
+  .analysis_main {
+    padding: 0 !important;
+    width: 50rem !important;
+    height: 20rem !important;
+  }
+}
+.chart-container {
+  height: 330px; 
+  resize: vertical; 
+  overflow: auto;
+  border: 1px solid #ccc;
+  min-height: 200px;
+  /* max-height: 800px; */
+}

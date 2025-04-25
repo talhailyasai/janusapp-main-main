@@ -1,0 +1,625 @@
+.activites_header {
+  font-weight: 600;
+  font-size: 18px;
+  color: #333f50;
+}
+
+.activites_year_cost_main {
+  background-color: lightgray;
+  font-weight: 800 !important;
+}
+
+.activites_start_year {
+  font-weight: 600;
+  font-size: 24px;
+  color: #000000;
+}
+
+.activites_activity {
+  font-size: 16px !important;
+}
+
+.leaf_img {
+  width: 1rem;
+  margin-right: 0.4rem;
+}
+
+.activites_year_dropdown {
+  color: #000000 !important;
+  background: #ffffff !important;
+  border: 1px solid #d9d9d9 !important;
+  border-radius: 5px !important;
+  display: flex;
+  align-items: center;
+}
+
+.activtesYear_dropdown_btn {
+  width: 8rem !important;
+}
+
+.dropdown_icon {
+  margin-right: 0.4rem !important;
+}
+.dropdown_year > .btn {
+  box-shadow: none !important;
+  padding: 0.55rem 0.75rem !important;
+}
+.reportYearTD {
+  padding: 0.4rem 0.5rem !important;
+}
+
+.Year_edit_menu_item {
+  font-weight: bold !important;
+}
+
+.modal_delete_maintenanceItem_heading {
+  background-color: #db4437;
+}
+
+.modal_delete_maintenanceItem_heading:hover {
+  background-color: #db4437;
+}
+
+.modaldelete_title {
+  color: white !important;
+}
+
+.deletemodal_close_button {
+  color: white !important;
+  height: 2.1rem !important;
+  width: 5rem !important;
+  align-items: center !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.side_paneL_root_main > .sidepanel-root {
+  width: fit-content;
+}
+
+.year_side_panel_checkbox {
+  display: block !important;
+}
+
+.activitesYearInvestmentPercent {
+  display: flex !important;
+  margin-bottom: 0 !important;
+}
+
+.Inspect_checkbox_main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.energy_savings_percent,
+.maintainence_flags {
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 5px;
+  margin: 0px;
+}
+
+.files_side_panel_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0rem 4rem;
+}
+
+.files_side_panel_main > .guZdik {
+  height: 14.8rem !important;
+  width: 23.62rem !important;
+  background-color: #d9d9d9 !important;
+  border: 4px dashed #666666 !important;
+  border-radius: 5px !important;
+}
+
+.show_file_div {
+  height: 3.3rem;
+  border-radius: 5px;
+  background-color: #333f50;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.files_icon {
+  margin: 0rem 0.4rem;
+}
+
+.modal_header {
+  background-color: #0091b3;
+  justify-content: center;
+}
+
+.modal_heading {
+  color: white;
+}
+
+.detail_modal_main {
+  min-height: 28rem;
+  overflow-y: auto;
+  max-height: 650px;
+}
+
+.activites_year_table_main {
+  vertical-align: middle !important;
+}
+
+.activites_submit_btn {
+  width: 8rem !important;
+  padding: 8px 10px !important;
+}
+.status_dropdown {
+  width: 9.5rem !important;
+}
+
+.activites_dropdown {
+  display: flex;
+  justify-content: space-between;
+}
+
+.createEditModel {
+  display: none !important;
+}
+
+.activitesYear_dropdown_menu_item {
+  padding: 0.55rem 0.75rem !important;
+}
+
+.table_scroll {
+  /* width: 99% !important; */
+  overflow-x: scroll !important;
+  -webkit-overflow-scrolling: touch;
+}
+
+.flag_image_back {
+  background-color: white !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.8rem;
+  border: 1px solid #333f50 !important;
+  border-radius: 5px;
+  width: 4.5rem;
+}
+
+.flag_image {
+  margin: 0.5rem 1.3rem !important;
+}
+
+.deatil_modal_close_btn {
+  border: 1px solid rgb(237, 126, 49) !important;
+  background-color: rgb(237, 126, 49) !important;
+  color: white !important;
+  width: 12.3rem;
+  height: 2.9rem;
+}
+
+.dropdown_menu_main > .dropdown-menu {
+  min-width: 7rem !important;
+  right: 0 !important;
+}
+
+.detail_modal_total_cost {
+  margin-top: -2rem !important;
+}
+
+.plan_color_div {
+  height: 1rem;
+  width: 1rem;
+  border-radius: 5px;
+}
+.color-badge .plan_color,
+.color-badge .efter_color,
+.color-badge .beslu_color {
+  height: 1rem;
+  width: 1.5rem;
+  border-radius: 3px;
+}
+.activity-form-panel .plan_color_div {
+  border-radius: 3px;
+}
+.plan_color {
+  background: #333f50;
+}
+
+.akut_color {
+  background: #d92700;
+}
+
+.efter_color {
+  background: #fbc70f;
+}
+
+.beslu_color {
+  background: #1585ed;
+}
+
+.print_modal_close_btn {
+  background-color: white !important;
+  color: #4a5073;
+  border: 2px solid #333f50 !important;
+}
+
+.print_modal_footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #d9d9d9;
+}
+
+.coversheet_main {
+  display: flex;
+  align-items: center;
+  width: 21rem;
+  margin-bottom: 1.4rem;
+}
+
+.print_cover_checkbox > .form-check-input {
+  width: 25px !important;
+  height: 25px !important;
+}
+
+.print_cover_label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1c1b1f;
+  margin-left: 2rem;
+}
+
+.print_content_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.utford_color {
+  background: #328c08;
+}
+
+.print_submit_btn {
+  width: 11.5rem !important;
+  height: 2.12rem !important;
+  font-size: 16px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px !important;
+}
+.status_color_main {
+  display: flex;
+  align-items: center;
+  /* justify-content: end; */
+}
+
+.plan_main {
+  display: flex;
+  align-items: center;
+}
+
+.activites_activity {
+  font-size: 5px !important;
+}
+
+.activites_year_leaf {
+  width: 0.6rem;
+  margin-right: 0.4rem;
+}
+
+.activites_status_dropdown {
+  display: none;
+}
+
+.activitesYear_print {
+  font-size: 9px !important;
+  font-style: normal !important;
+}
+
+.article_right {
+  /* text-align: right !important; */
+}
+
+.activites_width {
+  width: 11rem !important;
+}
+
+.comp_pkg_spinner {
+  color: white !important;
+}
+
+.batch_edit_btn {
+  display: flex;
+  justify-content: center;
+}
+
+.edit_maintenance_save_btn {
+  width: 150px !important;
+  font-size: 1rem !important;
+}
+
+.print_modal_title {
+  background-color: #333f50;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.create_edit_maintenance_activity {
+  width: 20rem !important;
+  /* max-width: 20rem !important; */
+  /* min-width: 20rem !important; */
+}
+.displayNone {
+  display: none;
+}
+
+/* .activites_year_invest_main {
+  width: 9rem;
+} */
+
+/* @media print {
+  body {
+    margin: 8.6rem 2.8rem 6.3rem 2.8rem !important;
+  }
+} */
+
+/* @media print { */
+/* @page { */
+/* page-break-before: always; */
+/* margin-top: 8.6rem; */
+/* margin-bottom: 6.3rem; */
+/* margin: 8.6rem 1.5rem 6.3rem 1.5rem !important; */
+/* } */
+
+/* .no-print {
+    display: none;
+  } */
+/* } */
+
+/* @media print {
+  body {
+    margin: 8.6rem 2.8rem 6.3rem 2.8rem;
+  }
+} */
+.printTable {
+  /* margin-top: 6rem; */
+  margin-top: 139px;
+}
+
+@media screen {
+  .header-for-print,
+  .footer-for-print {
+    display: none;
+  }
+}
+
+@media print {
+  .header-for-print {
+    display: block !important;
+    position: fixed !important;
+    margin-top: 1.7rem;
+    /* /* margin-right: 45px; */
+    /* margin-left: 45px; */
+    top: 1px;
+    left: 45px;
+    right: 45px;
+    /* background: #ddd; */
+    /* padding: 10px; */
+    /* text-align: center; */
+  }
+  /* @page :first {
+    .header-for-print,
+    .footer-for-print {
+      display: none;
+    }
+  } */
+
+  .footer-for-print {
+    display: block !important;
+    position: fixed !important;
+    /* margin-right: 45px;
+    margin-left: 45px; */
+    /* right: 45px;
+    left: 45px; */
+    bottom: 1.5rem;
+    left: 0;
+    right: 0;
+    /* top:102px; */
+    /* background: #ddd; */
+    /* padding: 10px; */
+    text-align: center;
+  }
+}
+.printHrClr {
+  color: #7c7c7c;
+  height: 0.2rem;
+}
+.printHr {
+  margin-right: 45px;
+  margin-left: 45px;
+}
+.pageNumbers {
+  display: flex;
+  flex-direction: column;
+  column-gap: 3rem;
+  margin-top: 7rem;
+}
+.mrgnTop10 {
+  margin-top: 10rem !important;
+}
+.pageNo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.settingsMain {
+  border: 1px solid #cfcfcf;
+  width: 45rem;
+  /* padding: 1rem; */
+}
+.settingItem {
+  display: flex;
+  column-gap: 2rem;
+}
+.settingItemLabel {
+  background: #e5e5e5;
+  margin-bottom: 0px;
+  padding: 0.5rem;
+  width: 20rem;
+}
+.w15 {
+  width: 15rem !important;
+}
+.settingItemRight {
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.settingHr {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.pageLabel {
+  margin-top: 8rem;
+  text-align: center;
+}
+
+.maintancne_diagram {
+  width: 53rem;
+  margin-top: 7rem;
+}
+.maintancne_diagram > canvas {
+  height: 395px !important;
+}
+
+/* Create Edit Responsive */
+
+@media only screen and (max-width: 768px) {
+  .create_edit_header_check {
+    width: 1rem !important;
+    height: 1rem !important;
+  }
+}
+
+/* Batch Editing Responsive */
+/* For Mobile */
+@media only screen and (max-width: 425px) {
+  .batchediting_change_btn_main {
+    float: none !important;
+  }
+
+  .batch_edit_change_btn {
+    width: 7rem !important;
+    border-radius: 1rem !important;
+    font-size: 14px !important;
+  }
+  .batch_edit_remove_btn {
+    margin-top: 2rem !important;
+  }
+}
+
+/* For Tablet */
+@media (min-width: 426px) and (max-width: 768px) {
+  .batchediting_change_btn_main {
+    float: none !important;
+  }
+
+  .batch_edit_change_btn {
+    width: 7rem !important;
+    border-radius: 1rem !important;
+    font-size: 14px !important;
+  }
+  .batch_edit_remove_btn {
+    margin-top: 2rem !important;
+  }
+}
+
+/* Activites Year Responsive */
+/* For Mobile */
+@media only screen and (max-width: 425px) {
+  .detail_energy_percent {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .detail_energy_percent_input {
+    width: 100% !important;
+  }
+  .energy_savings_percent {
+    width: 2.125em !important;
+    height: 2.125em !important;
+  }
+}
+
+/* Responsive Maintenance  Drawer */
+
+/*  Files Sidepanel Responsive  */
+@media only screen and (max-width: 900px) {
+  .files_side_panel_main > .guZdik {
+    width: 13.62rem !important;
+    min-width: 143px !important;
+  }
+
+  /* Copy Maintenance Item Side Panel Responsive */
+
+  .activites_year_Property {
+    margin-bottom: 1.4rem;
+  }
+
+  .Inspect_checkbox_main {
+    flex-wrap: wrap;
+  }
+
+  .activites_year_invest_main {
+    width: auto;
+    margin-top: 1.2rem;
+  }
+
+  .energy_savings_percent {
+    height: 2.125em !important;
+  }
+}
+
+.vat_switch {
+  margin: 0px 0px 8px 0px;
+}
+
+.detail_modal_main .form-label {
+  color: #000000;
+}
+.detail_modal_main .form-control:disabled,
+.detail_modal_main .form-control[readonly] {
+  background: transparent;
+  border: 0.0625rem solid #333f50;
+}
+.detail_modal_main .year_side_panel_checkbox {
+  color: #000000;
+}
+.detail_modal_main .form-check-input:disabled {
+  border: 1px solid #333f50;
+}
+.detail_modal_main .activitesYearInvestmentPercent input,
+.detail_modal_main .detail_flags input {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  height: 40px !important;
+  margin-top: 0px !important;
+}
+.activitesYearInvestmentPercent input {
+  height: 40px;
+  width: 80px;
+  border-radius: 5px;
+}
+.activity-form-panel .position_input {
+  text-transform: uppercase;
+}
+
+.activites_year_table_main td {
+  white-space: normal !important;
+  word-wrap: break-word;
+  min-width: 120px;
+}

@@ -1,0 +1,38 @@
+.my_profile_dropdown {
+  width: 100% !important;
+}
+
+.my_profile_toogle {
+  background-color: #f5f8fb !important;
+}
+
+.dropDown_scroll {
+  height: 11rem !important;
+  overflow-y: scroll !important;
+}
+.userAccountActions > .btn-toolbar {
+  justify-content: end !important;
+  margin: 2rem 0;
+}
+
+.passwordEye {
+  font-size: 1rem;
+  cursor: pointer;
+  position: absolute;
+  right: 2%;
+  margin-top: 0.7rem;
+  width: 24px;
+  height: 24px;
+}
+
+@media only screen and (max-width: 900px) {
+  .billing_table {
+    overflow-x: scroll;
+  }
+}
+.subscription-cancel-modal .modal-dialog {
+  max-width: 650px !important;
+}
+.subscription-cancel-modal .modal-title {
+  font-size: 1.2rem !important;
+}

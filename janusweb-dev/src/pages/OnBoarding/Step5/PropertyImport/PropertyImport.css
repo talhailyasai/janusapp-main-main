@@ -1,0 +1,16 @@
+.property_here_label {
+  color: #1585ed;
+}
+
+.missing_prop_head {
+  font-size: 20px !important;
+}
+
+.csv_uploader_main.dragging {
+  border: 2px dashed #007bff;
+  background-color: #f0f8ff;
+}
+.csv_uploader_main:hover {
+  border: 2px dashed #007bff;
+  background-color: #f0f8ff;
+}

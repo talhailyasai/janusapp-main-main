@@ -1,0 +1,41 @@
+.setting_functions_label {
+  border-radius: 1rem !important;
+  height: 35px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.setting_property_heading {
+  color: black !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+}
+
+.property_radio_btn {
+  width: 30px;
+  height: 30px;
+}
+
+.tooltip_setting {
+  background-color: white !important;
+}
+
+.update_btn_change_plan {
+  width: 14rem;
+  margin-top: 2rem !important;
+  font-size: 13px !important;
+}
+
+.update_btn_main {
+  text-align: center;
+}
+
+.supervision_icon {
+  cursor: pointer;
+}
+
+.setting_dropdown {
+  overflow-y: scroll;
+  height: 13rem;
+}

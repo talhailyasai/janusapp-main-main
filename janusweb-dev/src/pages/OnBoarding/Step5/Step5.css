@@ -1,0 +1,133 @@
+.step5_maintenance_para {
+  width: 45%;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 2rem;
+}
+
+.property_direction_icon {
+  color: #0091b3;
+  font-size: 2.5rem;
+}
+
+.csv_icon {
+  color: #1c1b1f;
+}
+
+.home_icon {
+  color: #be370d;
+}
+
+.property_wizard_main {
+  margin-top: 2rem;
+  background: white;
+  padding-bottom: 1rem;
+}
+
+.property_wizard_head {
+  font-weight: 600;
+  font-size: 2rem;
+  color: #333f50;
+  text-align: center;
+}
+
+.property_wizard_slect {
+  width: 10% !important;
+}
+
+.wizard_slect_main {
+  display: flex;
+  justify-content: center;
+}
+
+.property_card_main {
+  width: 18.75rem;
+  height: 22rem;
+  margin-bottom: 1rem;
+  border: 1px solid #333f50;
+  border-radius: 10px;
+}
+
+.all_property_card_main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 1.3rem;
+}
+
+.delete_icon_main {
+  background-color: #d9d9d9;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid #333f50;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.property_building_main {
+  border: 1px dashed #333f50;
+  padding: 1rem;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  padding-bottom: 0rem;
+}
+
+.buildnum_main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.property_name_field {
+  margin-bottom: 0.5rem !important;
+}
+
+.next_step_btn {
+  margin-top: 4rem;
+}
+
+.prop_delete_icon_main {
+  float: right;
+  margin-top: 0.3rem;
+  margin-right: 0.3rem;
+}
+
+.property_fields_main {
+  padding: 0 0.6rem;
+}
+
+.building_how_build_head {
+  font-weight: 600;
+  font-size: 14px;
+  color: #333f50;
+}
+
+.building_remove_icon_main {
+  background-color: #ed7d31;
+  border: 1px solid #ed7d31;
+  color: white;
+}
+
+.property_building_num {
+  font-weight: 600;
+  font-size: 40px;
+  color: #000000;
+}
+
+.on_boarding_main {
+  background-color: white;
+  color: black;
+  height: 100vh;
+}
+
+.step_cross_icon {
+  float: right;
+  margin-top: 1.6%;
+  margin-right: 2rem;
+  cursor: pointer;
+}

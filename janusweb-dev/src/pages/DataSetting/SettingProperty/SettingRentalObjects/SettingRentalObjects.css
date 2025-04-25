@@ -1,0 +1,21 @@
+.rental_object_search_main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
+
+.janus_field {
+  background-color: rgb(225, 225, 225);
+  color: black;
+  font-weight: bold;
+  height: fit-content;
+  border: 1px solid black;
+}
+
+.janus_field_label {
+  font-weight: bold;
+  font-size: 14px;
+  color: black;
+}
